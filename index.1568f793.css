@@ -254,6 +254,19 @@ img, video {
   --tw-backdrop-sepia: ;
 }
 
+.h-72 {
+  height: 18rem;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
+.bg-amber-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 119 6 / var(--tw-bg-opacity));
+}
+
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -263,14 +276,9 @@ img, video {
   font-weight: 700;
 }
 
-.text-red-300 {
+.text-blue-500 {
   --tw-text-opacity: 1;
-  color: rgb(252 165 165 / var(--tw-text-opacity));
-}
-
-.text-blue-800 {
-  --tw-text-opacity: 1;
-  color: rgb(30 64 175 / var(--tw-text-opacity));
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 .text-yellow-500 {
