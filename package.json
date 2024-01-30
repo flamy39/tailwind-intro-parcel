@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-intro-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "watch" : "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "clean": "rmdir /s /q dist",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
